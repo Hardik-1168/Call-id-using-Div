@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <style>
+    #nav {
+        width: 100%;
+        height: 50px;
+    
+        
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    ul li {
+        float: left;
+    }
+    ul li a {
+        display: block;
+        width: 176px;
+        height: 20px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px;
+        margin-left: 5.8px;
+    }
+    #div1 {
+        width: 100%;
+        height: 300px;
+        background-color: wheat;
+    }
+    #div2 {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(240, 202, 133);
+    }
+    #div3 {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(231, 178, 79);
+    }
+    #div4 {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(214, 154, 42);
+    }
+    #div5 {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(136, 97, 24);
+    }
+    #div6 {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(92, 63, 10);
+    }
+    ul li a {
+        animation-name: hhh;
+        animation-duration: 2s;
+    }
+    @keyframes hhh {
+        from{
+            opacity: 0;
+        }
+        50% {
+            opacity: .5;
+        }
+        to {
+            opacity: 1;
+        }
+        
+    }
+    ul li a:hover {
+        background-color: darkgray;
+        color: black;
+        letter-spacing: 4px;
+        font-size: large;
+        font-family: serif;
+        transition: 1s;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+   
+  
+ 
+    
+  </style>
+  <body>
+    
+    <div id="nav">
+      <ul>
+        <li><a href="#div1" class="active">Home</a></li>
+        <li><a href="#div2" style="">Blog</a></li>
+        <li><a href="#div3">Gallary</a></li>
+        <li><a href="#div4">About</a></li>
+        <li><a href="#div5">Product</a></li>
+        <li><a href="#div6">Contact</a></li>
+      </ul>
+    </div>
+    <div id="div1">
+        <h1>#Home</h1>
+    </div>
+    <div id="div2">
+       <h1> #Blog</h1>
+    </div>
+    <div id="div3">
+        <h1>#Gallary</h1>
+    </div>
+    <div id="div4">
+        <h1>#About</h1>
+    </div>
+    <div id="div5">
+        <h1>#Product</h1>
+    </div>
+    <div id="div6">
+        <h1>#Contact</h1>
+    </div>
+
+  </body>
+</html>
